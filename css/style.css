@@ -16,6 +16,9 @@ navbar navbar-expand-lg navbar-light bg-light{
 .searchimg {
     background-image: url('../vwb.jpg');
 }
+.signupimg {
+    background-image: url('../signup.jpeg');
+}
 .loginimg{
 	  background-image: url('../vwbus.jpeg');
       background-size: 100%
@@ -37,12 +40,24 @@ height: 100%;
 align-content: center;
 }
 
-.card{
+.card2{
 height: 370px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
 background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card1{
+height: 470px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.space{
+    width: 90%;
+    padding: 3%;
 }
 
 .social_icon span{
@@ -56,9 +71,14 @@ color: white;
 cursor: pointer;
 }
 
-.card-header h3{
+.card-header2 h3{
 color: white;
 }
+
+.card-header1 h3{
+color: white;
+}
+
 
 .social_icon{
 position: absolute;
@@ -71,6 +91,7 @@ width: 50px;
 background-color: #FFC312;
 color: black;
 border:0 !important;
+border-radius: 1px !important;
 }
 
 input:focus{
