@@ -14,7 +14,7 @@ navbar navbar-expand-lg navbar-light bg-light{
         transform: scale(1.3);
 }
 .searchimg {
-    background-image: url('../vwb.jpg');
+    background-image: url('../search.jpeg');
 }
 .signupimg {
     background-image: url('../signup.jpeg');
