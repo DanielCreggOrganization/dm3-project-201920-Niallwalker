@@ -1,6 +1,11 @@
-.menus {
-  background-image: url('../r8.png');
+.page {
+ text-align: center;
+
 }
+.menus {
+  background-image: url('../images/r8.png');
+}
+
 h1{
 	color: white;
 }
@@ -14,21 +19,25 @@ navbar navbar-expand-lg navbar-light bg-light{
         transform: scale(1.3);
 }
 .searchimg {
-    background-image: url('../search.jpeg');
+    background-image: url('../images/search.jpeg');
 }
 .signupimg {
-    background-image: url('../signup.jpeg');
+    background-image: url('../images/signup.jpeg');
 }
 .loginimg{
-	  background-image: url('../vwbus.jpeg');
+	  background-image: url('../images/vwbus.jpeg');
       background-size: 100%
 }
+.engines {
+  background-image: url('../images/engine.png');
+}
+
 /* Made with love by Mutiullah Samim*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('vwbus.jpeg');
+background-image: url('../images/vwbus.jpeg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
