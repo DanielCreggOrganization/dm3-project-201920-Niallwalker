@@ -7,23 +7,27 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="#">
-          <img src="images/LogoNav.png" href="Main.html" class="thumbnail" alt="">
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="images/LogoNav.png" width="90" alt="" class="d-inline-block align-middle mr-2">
+      <!-- Logo Text -->
+      <span class="text-uppercase font-weight-bold">VW Audi World</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="Main.html">Home
+                <span class="sr-only">(current)</span>
               </a>
 			</li>
-	<li class="nav-item active">
+	<li class="nav-item">
 		<a class="nav-link" href="Search.html">Shop</a>
-        <span class="sr-only">(current)</span>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="blog.html">Blog</a>
@@ -38,9 +42,8 @@
 </head>
 <body>
 <div class="searchimg">
-<div class="space">
-
-      
+<center>
+ <div class="space">     
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
@@ -50,16 +53,22 @@
             <p class="card-text">Here, you can get all the parts you need to get your car's engine performing at its best. We do simple service parts to full on engine swaps.</p>
           </div>
           <div class="card-footer">
-            <a href="engineShop/Engine.html" class="btn btn-primary">Find Out More!</a>
+            <a href="shop/Engine.html" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
-
->
-
-</form>
-
-  </div>
+ <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <img class="card-img-top" src="images/brakes.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title">Brakes</h4>
+            <p class="card-text">Stopping is just as important as actually driving so do check out our OEM and Aftermarket Brake options for your car.</p>
+          </div>
+          <div class="card-footer">
+            <a href="shop/Brakes.html" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
       <div class="col-md-4 mb-5">
         <div class="card h-100">
           <img class="card-img-top" src="images/suspension.jpg" alt="">
@@ -68,7 +77,7 @@
             <p class="card-text">Click here if you need replacement components for your suspension or if you want to upgrade them for a more serious build.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="shop/Suspension.html" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -79,11 +88,11 @@
         <div class="card h-100">
           <img class="card-img-top" src="images/body.jpeg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Body</h4>
+            <h4 class="card-title">Body Accessories</h4>
             <p class="card-text">Here, you can pick special body accessories to make your car stand out from the crowd.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="shop/Body.html" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -91,11 +100,11 @@
         <div class="card h-100">
           <img class="card-img-top" src="images/wheels.jpeg" alt="">
           <div class="card-body">
-            <h4 class="card-title">Wheels & Tires</h4>
+            <h4 class="card-title">Wheels & Tire</h4>
             <p class="card-text">Tires are the only thing connecting your car to the road, so click here to purchase soem tires and even some new wheels both OEM and aftermarket.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="shop/WheelsTires.html" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
@@ -107,17 +116,16 @@
             <p class="card-text">New to the scene?, need some advice? Here, we have a wide selection of fan forums willing to help you out.</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
+            <a href="shop/Support.html" class="btn btn-primary">Find Out More!</a>
           </div>
         </div>
       </div>
 	 </div>
 	</div>
     </div>
-    </div>
+</div>
   </div>
 </form>
 </center>
-</div>
 </body>
 </html>
