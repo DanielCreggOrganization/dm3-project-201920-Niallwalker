@@ -25,7 +25,10 @@
     display: inline-block;
     vertical-align: middle;
 }
+h1{
+    color: white;
 
-.card-product .price-old {
-    color: #999;
+}
+.engines {
+  background-image: url('../images/vwb.jpg');
 }

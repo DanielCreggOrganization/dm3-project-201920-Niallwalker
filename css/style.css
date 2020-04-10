@@ -6,12 +6,18 @@
   background-image: url('../images/r8.png');
 }
 
-h1{
-	color: white;
+.shopbg {
+  background-image: url('../images/shopimg.jpg');
 }
-navbar navbar-expand-lg navbar-light bg-light{
-	border-bottom: 5%;
-	border-bottom-color: red;
+
+.main{
+	width: 90%;
+    padding: 3%;
+    border-radius: 5%;
+}
+.navbar.transparent.navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm{
+	background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
 }
 .thumbnail:hover{
         -webkit-transform: scale(1.3);
@@ -24,9 +30,8 @@ navbar navbar-expand-lg navbar-light bg-light{
 .signupimg {
     background-image: url('../images/signup.jpeg');
 }
-.loginimg{
-	  background-image: url('../images/vwbus.jpeg');
-      background-size: 100%
+.loginimg {
+    background-image: url('../images/vwbus.jpeg');
 }
 .engines {
   background-image: url('../images/engines.png');
@@ -36,13 +41,6 @@ navbar navbar-expand-lg navbar-light bg-light{
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
-html,body{
-
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
-}
 
 .container{
 height: 100%;
