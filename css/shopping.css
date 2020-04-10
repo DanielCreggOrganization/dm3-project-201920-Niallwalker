@@ -1,3 +1,7 @@
+.h1{
+    color: #eee;
+
+}
 .card-product .img-wrap {
     border-radius: 3px 3px 0 0;
     overflow: hidden;
@@ -25,10 +29,7 @@
     display: inline-block;
     vertical-align: middle;
 }
-h1{
-    color: white;
 
-}
 .engines {
   background-image: url('../images/vwb.jpg');
 }
