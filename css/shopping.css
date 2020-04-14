@@ -33,3 +33,19 @@
 .engines {
   background-image: url('../images/vwb.jpg');
 }
+
+.bodybg {
+  background-image: url('../images/bodybg.jpg');
+}
+.suspension {
+  background-image: url('../images/suspension.jpg');
+}
+.wheels {
+  background-image: url('../images/wheelsbg.jpg');
+}
+.brakes {
+  background-image: url('../images/brakesbg.jpg');
+}
+.support {
+  background-image: url('../images/supportbg.jpg');
+}

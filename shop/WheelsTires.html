@@ -10,23 +10,28 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<!-- NAVBAR-->
+<nav class="navbar navbar-expand-lg py-3 navbar-light bg-light shadow-sm">
   <div class="container">
-    <a class="navbar-brand" href="#">
-          <img src="../images/LogoNav.png" width="90" alt="" class="thumbnail">
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <a href="#" class="navbar-brand">
+      <!-- Logo Image -->
+      <img src="../images/LogoNav.png" width="90" alt="" class="thumbnail">
+      <!-- Logo Text -->
+      <span class="text-uppercase font-weight-bold">VW Audi World</span>
+    </a>
+
+    <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+    <div id="navbarSupportedContent" class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="../Main.html">Home
-              </a>
+        <li class="nav-item"> 
+          <a class="nav-link" href="../Main.html">Home</a>
 			</li>
 	<li class="nav-item active">
-		<a class="nav-link" href="../Search.html">Shop</a>
+		<a class="nav-link" href="../Search.html">Shop
         <span class="sr-only">(current)</span>
+        </a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" href="../blog.html">Blog</a>
@@ -41,25 +46,79 @@
 </head>
 <body>
 <br>
-<div class="container">
+<div class="wheels">
 <center>
+<div class="container">
 
 <div class="row">
 <div class="col-md-4">
 	<figure class="card card-product">
 		<div class="img-wrap"><img src="../images/RS4wheels.jpg"></div>
 		<figcaption class="info-wrap">
-				<h4 class="title">Another name of item</h4>
-				<p class="desc">Some small description goes here</p>
+				<h4 class="title">Audi OEM B7 RS4 Wheels</h4>
+				<p class="desc">Replacement OEM wheels for B7 Audi RS4</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        <br><br>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 			<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 			<div class="price-wrap h5">
-				<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+				<span class="price-new">€600</span> <del class="price-old">€780</del>
 			</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -68,17 +127,70 @@
 	<figure class="card card-product">
 		<div class="img-wrap"><img src="../images/GTIwheels.jpg"> </div>
 		<figcaption class="info-wrap">
-				<h4 class="title">Good product</h4>
-				<p class="desc">Some small description goes here</p>
+				<h4 class="title">MK7 VW GTI Wheels</h4>
+				<p class="desc">Replacement OEM wheels for MK7 GTI</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        <br><br>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+					<span class="price-new">$900</span> <del class="price-old">€1100</del>
 				</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -87,17 +199,70 @@
 	<figure class="card card-product">
 		<div class="img-wrap"><img src="../images/RS5wheels.jpg"></div>
 		<figcaption class="info-wrap">
-				<h4 class="title">Product name goes here</h4>
-				<p class="desc">Some small description goes here</p>
+				<h4 class="title">RS5 B9 5 Spoke</h4>
+				<p class="desc">Replacement OEM wheels for B9 Audi RS5</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        <br><br>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+					<span class="price-new">€1280</span> <del class="price-old">€1980</del>
 				</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -111,16 +276,69 @@
 		<div class="img-wrap"><img src="../images/allseasons.jfif"></div>
 		<figcaption class="info-wrap">
 				<h4 class="title">All Seasons</h4>
-				<p class="desc">Some small description goes here</p>
+				<p class="desc">The best all round tire available for your vehicle</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        <br><br>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 			<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 			<div class="price-wrap h5">
-				<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+				<span class="price-new">€400</span> <del class="price-old">€480</del>
 			</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -130,16 +348,69 @@
 		<div class="img-wrap"><img src="../images/semislicks.jpg"> </div>
 		<figcaption class="info-wrap">
 				<h4 class="title">Semi Slick tires</h4>
-				<p class="desc">Some small description goes here</p>
+				<p class="desc">Pefect for high performance cars. Useful on race tracks</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        <br><br>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+				<span class="price-new">€1400</span> <del class="price-old">€1880</del>	
 				</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -149,16 +420,68 @@
 		<div class="img-wrap"><img src="../images/wintertires.jpg"></div>
 		<figcaption class="info-wrap">
 				<h4 class="title">Winter Tires</h4>
-				<p class="desc">Some small description goes here</p>
+				<p class="desc">Essential winter tires for dangerous cold driving conditions</p>
 				<div class="rating-wrap">
-					<div class="label-rating">132 reviews</div>
-					<div class="label-rating">154 orders </div>
+										<select class="btn btn-secondary btn-sm dropdown-toggle">
+                        <optgroup label="Audi">
+                        <option value="" selected disabled>Make & Model</option>
+                            <option value="A1">A1</option>
+                            <option value="S1">S1</option>
+                            <option value="A2">A2</option>
+                            <option value="Q2">Q2</option>
+                            <option value="SQ2">SQ2</option>
+                            <option value="RSQ2">RSQ2</option>
+                            <option value="A3">A3</option>
+                            <option value="S3">S3</option>
+                            <option value="RS3">RS3</option>
+                            <option value="Q3">Q3</option>
+                            <option value="SQ3">SQ3</option>
+                            <option value="RSQ3">RSQ3</option>
+                            <option value="A4">A4</option>
+                            <option value="S4">S4</option>
+                            <option value="RS4">RS4</option>
+                            <option value="A5">A5</option>
+                            <option value="S5">S5</option>
+                            <option value="RS5">RS5</option>
+                            <option value="Q5">Q5</option>
+                            <option value="SQ5">SQ5</option>
+                            <option value="A6">A6</option>
+                            <option value="S6">S6</option>
+                            <option value="RS6">RS6</option>
+                            <option value="A7">A7</option>
+                            <option value="S7">S7</option>
+                            <option value="RS7">RS7</option>
+                            <option value="Q7">Q7</option>
+                            <option value="SQ7">SQ7</option>
+                            <option value="A8">A8</option>
+                            <option value="S8">S8</option>
+                            <option value="Q8">Q8</option>
+                            <option value="SQ8">SQ8</option>
+                            <option value="R8">R8</option>
+                        </optgroup>
+                        <br><br>
+                        <optgroup label="VW">
+                            <option value="Amarok">Amarok</option>
+                            <option value="Arteon">Arteon</option>
+                            <option value="Beetle">Beetle</option>
+                            <option value="Corrado">Corrado</option>
+                            <option value="Golf">Golf</option>
+                            <option value="GolfGTI">Golf GTI</option>
+                            <option value="GolfR">Golf R</option>
+                            <option value="Jetta">Jetta</option>
+                            <option value="Polo">Polo</option>
+                            <option value="PoloR">Polo R</option>
+                            <option value="Passat">Passat</option>
+                            <option value="Tiguan">Tiguan</option>
+                            <option value="Touareg">Touareg</option>
+                        </optgroup>
+                        </select>
 				</div> <!-- rating-wrap.// -->
 		</figcaption>
 		<div class="bottom-wrap">
 				<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
 				<div class="price-wrap h5">
-					<span class="price-new">$1280</span> <del class="price-old">$1980</del>
+					<span class="price-new">€700</span> <del class="price-old">€800</del>
 				</div> <!-- price-wrap.// -->
 		</div> <!-- bottom-wrap.// -->
 	</figure>
@@ -167,6 +490,62 @@
 
 </div> 
 <!--container.//-->
-<br><br>
+
+</div> 
+
+<div class="footer">
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+        </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+   
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+
+  <div class="footer-copyright text-center py-3">© 2020 Professional Practice in I.T
+
+     <a href="https://www.youtube.com/channel/UCcna4FrWIQIJLqvsS2Y2Q8w">
+  </div>
+  <!-- Copyright -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
 </body>
+<!-- Footer -->
 </html>
